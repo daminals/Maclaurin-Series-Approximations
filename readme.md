@@ -13,8 +13,10 @@ Another issue that occured was different number types having a poor time interac
 
 ## Formulas
 
-cos(x) = $\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n}}{(2n)!}$
+<img src="https://latex.codecogs.com/svg.image?cos(x)&space;=&space;$\sum_{i=0}^{\infty}&space;\frac{(-1)^nx^{2n}}{(2n)!}$&space;\\&space;\\" title="cos(x) = $\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n}}{(2n)!}$ \\ \\" />
 
-sin(x) = $\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n+1}}{(2n+1)!}$
 
-$e^x$ = $\sum_{i=0}^{\infty} \frac{x^{n}}{n!}$
+<img src="https://latex.codecogs.com/svg.image?sin(x)&space;=&space;$\sum_{i=0}^{\infty}&space;\frac{(-1)^nx^{2n&plus;1}}{(2n&plus;1)!}$&space;\\&space;\\" title="sin(x) = $\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n+1}}{(2n+1)!}$ \\ \\" />
+
+
+<img src="https://latex.codecogs.com/svg.image?$e^x$&space;=&space;$\sum_{i=0}^{\infty}&space;\frac{x^{n}}{n!}$&space;\\&space;" title="$e^x$ = $\sum_{i=0}^{\infty} \frac{x^{n}}{n!}$ \\ " />
