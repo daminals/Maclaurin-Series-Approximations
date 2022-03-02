@@ -9,6 +9,7 @@ fn main() {
     e_x(7.0);
 }
 
+#[allow(dead_code)]
 fn sin(x: f64) {
     // (-1)^n * x^(2n+1)
     // -----------------
@@ -25,6 +26,7 @@ fn sin(x: f64) {
     }    
 }
 
+#[allow(dead_code)]
 fn cos(x: f64) {
     // (-1)^n * x^(2n)
     // -----------------
@@ -48,7 +50,6 @@ fn e_x(x: f64) {
     let mut n = 0;
     let mut sum: f64 = 0.0;
     while n<150 { // goes up to 19 factorial before overflow
-        let negative_1: i32 = -1;
         let n_f64: f64 = (*&n) as f64;
         sum += ((*&x).powf(*&n_f64))/(factorial(n_f64 as u64)) as f64;
         print!("{esc}[2J{esc}[1;1H", esc = 27 as char); // clear terminal
