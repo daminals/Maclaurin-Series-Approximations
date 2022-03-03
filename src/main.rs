@@ -6,7 +6,7 @@
 use statrs::function::factorial::factorial;
 
 fn main() {
-    e_x(7.0);
+    sin(5.0);
 }
 
 #[allow(dead_code)]
@@ -43,6 +43,7 @@ fn cos(x: f64) {
     }    
 }
 
+#[allow(dead_code)]
 fn e_x(x: f64) {
     // x^(n)
     // -----------------
